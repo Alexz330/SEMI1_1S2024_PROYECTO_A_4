@@ -15,10 +15,9 @@ import { Publication as P } from "../../interfaces/publication";
 import { convertTextToAudio, getImageLabels, translateText } from "../../api/aws";
 
 export const Publication: React.FC<P> = ({
-  id,
   content,
   photoUrl,
-  authorId,
+
   created_at,
   author,
 }) => {
